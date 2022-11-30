@@ -1,6 +1,6 @@
 {
   "name": "ci-tests",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This project can be used to test the CI system integrations for cvrg.report",
   "main": "index.js",
   "scripts": {
@@ -16,15 +16,15 @@
   "author": "tobilg@gmail.com",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.1.2",
-    "nyc": "^15.0.1"
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "nyc": "^15.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cvrg-report/ci-tests.git"
+    "url": "https://github.com/coverage-report/ci-tests.git"
   },
   "engines": {
-    "node": "12.13.0"
+    "node": ">=12.13.0"
   }
 }
